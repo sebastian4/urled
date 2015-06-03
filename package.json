@@ -1,12 +1,19 @@
 {
   "name": "urled",
   "main": "./lib/urled",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "encode and decode url strings",
   "keywords": [
-    "url","encode","decode","json"
+    "url",
+    "encode",
+    "decode",
+    "json"
   ],
-  "activationEvents": ["urled:encode","urled:decode","urled:decodeJson"],
+  "activationEvents": [
+    "urled:encode",
+    "urled:decode",
+    "urled:decodeJson"
+  ],
   "repository": "https://github.com/sebastian4/urled",
   "license": "MIT",
   "engines": {
