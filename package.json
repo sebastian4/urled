@@ -1,7 +1,7 @@
 {
   "name": "urled",
   "main": "./lib/urled",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "encode and decode url strings",
   "keywords": [
     "url",
