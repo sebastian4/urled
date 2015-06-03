@@ -1,0 +1,19 @@
+{
+  "name": "urled",
+  "main": "./lib/urled",
+  "version": "0.0.1",
+  "description": "encode and decode url strings",
+  "keywords": [
+    "url","encode","decode","json"
+  ],
+  "activationEvents": ["urled:encode","urled:decode","urled:decodeJson"],
+  "repository": "https://github.com/sebastian4/urled",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "is-json": "^1.2.5",
+    "urlencode2": "^1.0.1"
+  }
+}

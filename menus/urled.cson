@@ -1,0 +1,43 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Urled'
+      'submenu': [
+        {
+          'label': 'Encode'
+          'command': 'urled:encode'
+        }
+        {
+          'label': 'Decode'
+          'command': 'urled:decode'
+        }
+        {
+          'label': 'DecodeJson'
+          'command': 'urled:decodeJson'
+        }
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Urled'
+      'submenu': [
+        {
+          'label': 'Encode'
+          'command': 'urled:encode'
+        }
+        {
+          'label': 'Decode'
+          'command': 'urled:decode'
+        }
+        {
+          'label': 'DecodeJson'
+          'command': 'urled:decodeJson'
+        }
+      ]
+    ]
+  }
+]
